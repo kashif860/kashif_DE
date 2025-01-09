@@ -1,0 +1,16 @@
+In MY previous Project, I was working with Designed and developed scalable data pipelines using Azure Data Factory (ADF) to automate the ingestion of data from SQL
+Primarily, I handle Policy data, claims data, customer data
+Implemented the Medallion Architecture (bronze, silver, gold layers) in Databricks to structure and optimize data processing
+Leveraged PySpark within Databricks to optimize ETL processes, handling large volumes of both structured and unstructured data while ensuring data integrity
+Implemented the Medallion Architecture (bronze, silver, gold layers) in Databricks to structure and optimize data processing workflows for efficient analytics
+Ensured data security by utilizing Azure Key Vault to store sensitive information such as connection strings, API keys, and authentication tokens
+Conducted performance tuning of ADF pipelines and Databricks notebooks to reduce execution times and improve system performance under heavy data loads
+Collaborated closely with stakeholders and business analysts to gather requirements, deliver solutions, and provide regular project progress updates.
+Each layer was processed using separate Jupyter notebooks.
+My task is to migrate this data from local server to the cloud.
+We began by collecting the data from all sources using Azure Data Factory.
+The data was then moved into two destinations: Azure Blob Storage and Azure Data Lake Storage Gen2 (ADLS Gen2).
+The dataset contained several issues, such as null values, duplicate records, and required label encoding.
+To address this, we used Azure Databricks to connect to both data sources and implemented all the necessary business transformations as per the client's requirements.
+After the aggregation process, we pushed the data from the Gold layer into ADLS Gen2. 
+Additionally, we conducted data validation, unit testing, and other tests to ensure the accuracy of the transformations.
