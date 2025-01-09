@@ -7,3 +7,12 @@ Troubleshoot and resolved escalated issues in real-time related to pipeline fail
 This data is available in both structured and unstructured formats.
 The structured data is retrieved from Oracle and SQL Server databases.
 Both servers are hosted locally rather than on the cloud.
+We began by collecting the data from all sources using Azure Data Factory.
+Developed and maintained PowerShell scripts to automate routine monitoring tasks, such as checking pipeline statuses and
+Automatically restarting failed jobs, reducing manual intervention.
+The dataset contained several issues, such as null values, duplicate records, and required label encoding. 
+Used Azure Monitor and Log Analytics to set up real-time alerts and dashboards to monitor the health of data workflows,
+Providing proactive notifications to stakeholders about any system anomalies.
+Ensured strict compliance with SLAs by managing high-priority incidents and ensuring that issues were addressed within defined timelines
+Collaborated with development and infrastructure teams to deploy updates and fixes to existing data pipelines and solutions, improving overall pipeline reliability and efficiency
+Documented all processes, incident resolutions, and troubleshooting steps in a centralized knowledge base for future reference and staff training purposes.
