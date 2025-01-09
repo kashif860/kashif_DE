@@ -1,0 +1,9 @@
+In my current project, I am working with a comprehensive technical support and maintenance for Azure-based data engineering solutions,  ensuring the continuous operation and optimization of data pipelines
+This project involved resolving data pipeline issues, ensuring SLAs were met, and
+Automating key monitoring processes to maintain system health and minimize downtime.
+Monitored and maintained Azure Data Factory pipelines for data ingestion and transformation, proactively resolving failures
+To ensure data accuracy and minimize processing delays. 
+Troubleshoot and resolved escalated issues in real-time related to pipeline failures, data mismatches, and other Azure infrastructure-related problems
+This data is available in both structured and unstructured formats.
+The structured data is retrieved from Oracle and SQL Server databases.
+Both servers are hosted locally rather than on the cloud.
